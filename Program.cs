@@ -26,4 +26,4 @@ Console.WriteLine($"Kölcsönző teljes napi bevétele: {teljes} Ft");
 
 RollerUtazas leg = utazasok.MaxBy(x => x.UtazasiIdoPerc);
 
-Console.WriteLine($"Leghosszabb utazás: {leg.FelhasznaloNev} ({leg.UtazasiIdoPerc} perc)");
+Console.WriteLine($"Leghosszabb utazás: {leg.FelhasznaloNev} ({leg.UtazasiIdoPerc} percc)");
